@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Latest toolchain for React with TypeScript.",
   "author": "Masashi Takahashi",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.5"
+  }
 }
