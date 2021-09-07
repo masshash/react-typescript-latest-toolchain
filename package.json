@@ -4,6 +4,9 @@
   "description": "Latest toolchain for React with TypeScript.",
   "author": "Masashi Takahashi",
   "license": "MIT",
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
     "@babel/core": "^7.15.5"
   }
