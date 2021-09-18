@@ -7,9 +7,15 @@
   "browserslist": [
     "defaults"
   ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
     "typescript": "^4.4.3"
   }
 }
