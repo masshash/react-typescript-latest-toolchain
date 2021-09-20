@@ -4,6 +4,10 @@
   "description": "Latest toolchain for React with TypeScript.",
   "author": "Masashi Takahashi",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
   "browserslist": [
     "defaults"
   ],
