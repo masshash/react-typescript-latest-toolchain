@@ -29,4 +29,10 @@ module.exports = {
       },
     },
   ],
+  settings: {
+    // Handle to the following warning "Warning: React version not specified in eslint-plugin-react settings."
+    react: {
+      version: 'detect',
+    },
+  },
 };
