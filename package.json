@@ -6,7 +6,9 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "lint": "eslint --fix .",
+    "format": "prettier --write ."
   },
   "browserslist": [
     "defaults"
