@@ -1,12 +1,12 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
-const distPath = path.resolve(__dirname, 'dist');
+const buildPath = path.resolve(__dirname, 'build');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src', 'index.tsx'),
   output: {
-    path: distPath,
+    path: buildPath,
     filename: 'bundle.js',
   },
   resolve: {
@@ -35,7 +35,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: distPath,
+      directory: buildPath,
       watch: true,
     },
   },
