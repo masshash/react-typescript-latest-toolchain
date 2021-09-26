@@ -36,7 +36,7 @@ module.exports = {
   devServer: {
     static: {
       directory: buildPath,
-      watch: true,
     },
+    hot: true,
   },
 };
